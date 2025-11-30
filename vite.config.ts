@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/Table_Parser_Gemini_v1/",
+  build: {
+    outDir: 'docs',
+  },
 })
