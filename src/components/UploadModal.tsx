@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { X, Upload, FileText, FileSpreadsheet, AlertCircle, Loader2 } from 'lucide-react';
+import { X, Upload, FileSpreadsheet, AlertCircle, Loader2 } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import mammoth from 'mammoth';
 import { parseHtmlTable } from '../utils/parser';

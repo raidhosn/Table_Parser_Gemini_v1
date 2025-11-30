@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 import { Clipboard, Check } from 'lucide-react';
 import { cleanValue } from '../utils/parser';
 

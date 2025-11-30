@@ -1,6 +1,6 @@
 import { TransformedRow } from './types';
 
-export const finalHeaders: (keyof Omit<TransformedRow, 'Original ID'>)[] = [
+export const finalHeaders: (keyof Omit<TransformedRow, 'Original ID'> & string)[] = [
     'Subscription ID',
     'Request Type',
     'VM Type',

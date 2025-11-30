@@ -34,7 +34,7 @@ export const CategorySection: React.FC<CategorySectionProps> = ({
             if (h === 'Zone' && !isZonal) return false;
             return true;
         });
-    }, [data, headers]);
+    }, [data, headers]) as string[];
 
     const displayHeaders = useMemo(() => visibleHeaders.map(h => isTranslated ? (DICTIONARY[h] || h) : h), [visibleHeaders, isTranslated]);
 
